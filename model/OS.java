@@ -1,0 +1,162 @@
+package br.com.aaemobile.aaemobile.model;
+
+public class OS {
+
+    private String id;
+    private String local_id;
+    private String centrocusto_id;
+    private String tiposolicitacao;
+    private String tiposervico;
+    private String frequencia_id;
+    private String frequencia_descricao;
+    private String equipamento_id;
+    private String checklist_id;
+    private String equipe1;
+    private String dataplanejamento;
+    private String dataprogramacao;
+    private String descricaopadrao;
+    private String codigochamado;
+    private String flag_os;
+
+    public OS(){
+
+    }
+
+    public OS(String id, String local_id, String centrocusto_id, String tiposolicitacao, String tiposervico, String frequencia_id, String frequencia_descricao, String equipamento_id, String checklist_id, String equipe1, String dataplanejamento, String dataprogramacao, String descricaopadrao, String codigochamado, String flag_os) {
+        this.id = id;
+        this.local_id = local_id;
+        this.centrocusto_id = centrocusto_id;
+        this.tiposolicitacao = tiposolicitacao;
+        this.tiposervico = tiposervico;
+        this.frequencia_id = frequencia_id;
+        this.frequencia_descricao = frequencia_descricao;
+        this.equipamento_id = equipamento_id;
+        this.checklist_id = checklist_id;
+        this.equipe1 = equipe1;
+        this.dataplanejamento = dataplanejamento;
+        this.dataprogramacao = dataprogramacao;
+        this.descricaopadrao = descricaopadrao;
+        this.codigochamado = codigochamado;
+        this.flag_os = flag_os;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getLocal_id() {
+        return local_id;
+    }
+
+    public void setLocal_id(String local_id) {
+        this.local_id = local_id;
+    }
+
+    public String getCentrocusto_id() {
+        return centrocusto_id;
+    }
+
+    public void setCentrocusto_id(String centrocusto_id) {
+        this.centrocusto_id = centrocusto_id;
+    }
+
+    public String getTiposolicitacao() {
+        return tiposolicitacao;
+    }
+
+    public void setTiposolicitacao(String tiposolicitacao) {
+        this.tiposolicitacao = tiposolicitacao;
+    }
+
+    public String getTiposervico() {
+        return tiposervico;
+    }
+
+    public void setTiposervico(String tiposervico) {
+        this.tiposervico = tiposervico;
+    }
+
+    public String getFrequencia_id() {
+        return frequencia_id;
+    }
+
+    public void setFrequencia_id(String frequencia_id) {
+        this.frequencia_id = frequencia_id;
+    }
+
+    public String getFrequencia_descricao() {
+        return frequencia_descricao;
+    }
+
+    public void setFrequencia_descricao(String frequencia_descricao) {
+        this.frequencia_descricao = frequencia_descricao;
+    }
+
+    public String getEquipamento_id() {
+        return equipamento_id;
+    }
+
+    public void setEquipamento_id(String equipamento_id) {
+        this.equipamento_id = equipamento_id;
+    }
+
+    public String getChecklist_id() {
+        return checklist_id;
+    }
+
+    public void setChecklist_id(String checklist_id) {
+        this.checklist_id = checklist_id;
+    }
+
+    public String getEquipe1() {
+        return equipe1;
+    }
+
+    public void setEquipe1(String equipe1) {
+        this.equipe1 = equipe1;
+    }
+
+    public String getDataplanejamento() {
+        return dataplanejamento;
+    }
+
+    public void setDataplanejamento(String dataplanejamento) {
+        this.dataplanejamento = dataplanejamento;
+    }
+
+    public String getDataprogramacao() {
+        return dataprogramacao;
+    }
+
+    public void setDataprogramacao(String dataprogramacao) {
+        this.dataprogramacao = dataprogramacao;
+    }
+
+    public String getDescricaopadrao() {
+        return descricaopadrao;
+    }
+
+    public void setDescricaopadrao(String descricaopadrao) {
+        this.descricaopadrao = descricaopadrao;
+    }
+
+    public String getCodigochamado() {
+        return codigochamado;
+    }
+
+    public void setCodigochamado(String codigochamado) {
+        this.codigochamado = codigochamado;
+    }
+
+    public String getFlag_os() {
+        return flag_os;
+    }
+
+    public void setFlag_os(String flag_os) {
+        this.flag_os = flag_os;
+    }
+}
